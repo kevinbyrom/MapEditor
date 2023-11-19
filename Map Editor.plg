@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Map Editor - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP9285.TMP" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "game source" /I "game header" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "INIT_GUID" /D "WIN32_LEAN_AND_MEAN" /D "FULLSCREEN" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"c:\game source\map editor\Game Source\Game.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP9285.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP9286.TMP" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Map Editor.pdb" /debug /machine:I386 /out:"Debug/Map Editor.exe" /pdbtype:sept 
+".\Debug\DirectX.obj"
+".\Debug\Gfx.obj"
+".\Debug\Input.obj"
+".\Debug\WinMain.obj"
+".\Debug\BlockMap.obj"
+".\Debug\Level.obj"
+".\Debug\Map.obj"
+".\Debug\TileMap.obj"
+".\Debug\Camera.obj"
+".\Debug\Dropper.obj"
+".\Debug\GObject.obj"
+".\Debug\Person.obj"
+".\Debug\CurrBlockGWnd.obj"
+".\Debug\CurrTileGWnd.obj"
+".\Debug\DialogGWnd.obj"
+".\Debug\GWnd.obj"
+".\Debug\MapViewGWnd.obj"
+".\Debug\FrameTimer.obj"
+".\Debug\Game.obj"
+".\Debug\Globals.obj"
+"..\..\mssdk\lib\dxguid.lib"
+"..\..\mssdk\lib\ddraw.lib"
+"..\..\mssdk\lib\dinput.lib"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP9286.TMP"
+<h3>Output Window</h3>
+Compiling...
+Game.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Map Editor.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
